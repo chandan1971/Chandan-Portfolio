@@ -350,10 +350,10 @@ a{
     }
     .project-card{
         width: 100%;
-        height: 300px;
+        height: 400px;
         
     }
-    .praject-card{
+    .project-card{
         background-size: cover;
         background-position: center;
     }
@@ -368,27 +368,36 @@ a{
     .left{
         left: 0;
     }
+    .right{
+        justify-content: center;
+        align-items: center;
+    }
     .project-heading{
-        font-size: 40px;
+        font-size: 4rem;
         width: 100%;
         
     }
     .project-description{
         width: 100%;
+        font-size: 2rem;
     }
     #project1{
         margin-right: 0;
+    }
+
+    #project2{
+        margin: 0;
     }
     
     .project-skills-container{
         width: 100%;
     }
     .project-skill{
-        width: 35px;
+        width: 100px;
     }
     .project-number{
         font-size: 1rem;
-        opacity: 1;
+        z-index: 10;
     }
     .project-card:hover .project-content{
         scale: 0.55;
@@ -618,6 +627,24 @@ footer{
         height: 50%;
 
     }
-    
+    .skill-faded-text{
+        opacity: 0;
+
+    }
+    .container-form{
+        width: 100%;
+    }
+    .contactus-heading{
+        font-size: 3rem;
+    }
+    .contactus-subheading{
+        font-size: 1rem;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+    }
+    .footer-faded-text{
+        opacity: 0;
+    }
 
 }
