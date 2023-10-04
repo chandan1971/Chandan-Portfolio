@@ -325,7 +325,7 @@ a{
     transform: scale(1.1);
 }
 
-@media (max-width:765px){
+@media (max-width:1000px){
     .navbar{
         flex-direction: column;
     }
@@ -379,7 +379,7 @@ a{
     }
     .project-description{
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     #project1{
         margin-right: 0;
@@ -598,7 +598,7 @@ footer{
     display: flex;
     gap: 1rem;
 }
-@media (max-width:765px){
+@media (max-width:1000px){
     .hero-section-left{
         justify-content: center;
         align-items: center;
@@ -621,11 +621,6 @@ footer{
         width: 50px;
         height: 50px;
         transition: all 0.5s;
-    }
-    .blob-style{
-        width: 50%;
-        height: 50%;
-
     }
     .skill-faded-text{
         opacity: 0;
